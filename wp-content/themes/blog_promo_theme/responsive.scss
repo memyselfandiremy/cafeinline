@@ -1,0 +1,198 @@
+/* 
+Theme Name: blog_promo_theme
+Theme URL: https://
+Description: Site officiel de la promo Café Inline apprenants à l'ACS Besançon.
+Version: 1.0
+Authors: Christian Anis, Ghislain Billard, Remy Marie-Ange
+*/
+
+$primarycolor: white;
+$secondcolor: #B50900;
+$thirdcolor: #efefef;
+$forthcolor: #474747;
+@media screen and (max-width:992px) {
+    body {
+        ///////////////////////////////////////////////////// NAVBAR
+        header {
+            background-color: white;
+            .container {
+                .row {
+                    #navbar {
+                        .button_nav {
+                            button {
+                                background-color: transparent;
+                                border: transparent;
+                                span {
+                                    background-image: url("images/mug-hot-solid.svg");
+                                    font-size: 2em;
+                                }
+                                &:focus {
+                                    outline: 5px auto transparent;
+                                }
+                            }
+                            position: relative;
+                            #menu {
+                                position: absolute;
+                                top: 62px;
+                                right: 0px;
+                                ul {
+                                    flex-direction: column;
+                                    text-align: center;
+                                    padding-left: 0px;
+                                    padding: 10px 35px;
+                                    background-color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ///////////////////////////////////////////////////// ARTICLES
+    #banTitre {
+        h1 {
+            font-size: 55px!important;
+        }
+    }
+}
+
+///////////////////////////////////////////////////// TELEPHONE
+@media screen and (max-width:768px) {
+    body {
+        main {
+            .container {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            ///////////////////////////////////////////////////// ACCUEIL       
+            #banner_accueil {
+                #title_header {
+                    h1 {
+                        font-size: 45px;
+                    }
+                    h2 {
+                        font-size: 35px;
+                    }
+                }
+                #button {
+                    padding-top: 40px;
+                    a {
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+                }
+            }
+            #banner_separator {
+                p {
+                    font-size: 25px;
+                }
+            }
+            #last_post_accueil {
+                ul {
+                    li {
+                        .img_articl {
+                            margin-bottom: 15px;
+                            text-align: left;
+                        }
+                        .extract_articl {
+                            p {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// BLOG
+        #blog {
+            h1 {
+                font-size: 45px !important;
+            }
+        }
+        ///////////////////////////////////////////////////// ARTICLES
+        #banTitre {
+            h1 {
+                font-size: 30px!important;
+            }
+        }
+        #article {
+            .articleTop {
+                .articleDate {
+                    text-align: left;
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// COMMENTS
+        #commentaires {
+            #comment,
+            #author,
+            #email {
+                width: 100%;
+            }
+            .comments-area {
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// EQUIPE
+        #banner_equipe {
+            h1 {
+                font-size: 45px;
+            }
+        }
+        .portrait_articl {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        #banProjets {
+            h1 {
+                font-size: 45px;
+            }
+        }
+        ///////////////////////////////////////////////////// PROJETS
+        #banProjets {
+            h1 {
+                font-size: 45px;
+            }
+        }
+        #projets {
+            ul {
+                li {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    margin-right: 0px;
+                    a {
+                        figure {
+                            img {
+                                min-height: 380px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        } ///////////////////////////////////////////////////// MENTIONS
+        #banner_mentions {
+            h1 {
+                text-align: center;
+                font-size: 45px;
+            }
+        }
+        ///////////////////////////////////////////////////// FOOTER         
+        footer {
+            .container {
+                .row {
+                    .column {
+                        margin: 10px 0;
+                        text-align: left !important;
+                    }
+                    #acs {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}

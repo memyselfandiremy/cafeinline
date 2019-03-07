@@ -1,0 +1,338 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 1 March 2019 9 h 35 min
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.8
+WORDPRESS:	5.0.3
+PHP INFO:	7.3.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 2MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+SQL CREATED: 20190211_cafeinlinepromo_ee0042e12c05744c2064_20190301093058_database.sql 
+SQL FILE SIZE: 855.06KB (875578) 
+SQL FILE TIME: 2019-03-01 09:35:17 
+SQL RUNTIME: 1.39 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/cafeinline 
+ARCHIVE FILE: 20190211_cafeinlinepromo_ee0042e12c05744c2064_20190301093058_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	78.59MB 
+STATS:	Dirs 246 | Files 2,356 
+SQL ADDED: 20190211_cafeinlinepromo_ee0042e12c05744c2064_20190301093058_database.sql 
+
+WARNING: Unable to zip directories: 
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/classes]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/fonts]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/js]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/blocks]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/elements]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/forms]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/layout]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/media]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/mixins]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/modules]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/footer]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/header]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/primary]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/secondary]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/typography]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/content]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/footer]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/header]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/post]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/images]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/footer]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/header]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/navigation]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/page]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/inc]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts]
+DIR: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen]
+ 
+
+WARNING: Unable to zip files: 
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/blog_promo_theme_child.zip]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/404.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/archive.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/classes/class-twentynineteen-svg-icons.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/comments.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff2]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/footer.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/header.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/image.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc/back-compat.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc/color-patterns.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc/customizer.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc/icon-functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc/template-functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/inc/template-tags.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/index.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/js/customize-controls.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/js/customize-preview.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/js/priority-menu.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/js/skip-link-focus-fix.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/js/touch-keyboard-navigation.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/package-lock.json]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/package.json]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/postcss.config.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/print.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/print.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/readme.txt]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/blocks/_blocks.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/elements/_elements.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/elements/_lists.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/elements/_tables.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/forms/_buttons.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/forms/_fields.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/forms/_forms.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/layout/_layout.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/media/_captions.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/media/_galleries.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/media/_media.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/mixins/_mixins-master.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/mixins/_utilities.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/modules/_accessibility.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/modules/_alignments.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/modules/_clearings.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation/_links.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation/_menu-footer-navigation.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation/_menu-main-navigation.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation/_menu-social-navigation.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation/_navigation.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/navigation/_next-previous.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/footer/_site-footer.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/header/_site-featured-image.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/header/_site-header.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/primary/_archives.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/primary/_comments.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/primary/_posts-and-pages.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/secondary/_widgets.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/site/_site.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/typography/_copy.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/typography/_headings.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/typography/_typography.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site/_colors.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site/_columns.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site/_fonts.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site/_structure.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site/_transitions.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/variables-site/_variables-site.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/sass/_normalize.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/screenshot.png]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/search.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/single.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style-editor-customizer.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style-editor-customizer.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style-editor.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style-editor.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style-rtl.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/style.scss]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/content/content-none.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/content/content-page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/content/content-single.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/content/content.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/header/entry-header.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/header/site-branding.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/post/author-bio.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/404.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/archive.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css/blocks.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css/colors-dark.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css/editor-blocks.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css/editor-style.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css/ie8.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/css/ie9.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/images/coffee.jpg]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/images/espresso.jpg]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/images/header.jpg]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/customize-controls.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/customize-preview.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/global.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/html5.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/navigation.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/comments.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/footer.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/front-page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/header.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/back-compat.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/color-patterns.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/custom-header.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/customizer.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/icon-functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/template-functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/inc/template-tags.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/index.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/README.txt]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/rtl.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/screenshot.png]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/search.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/searchform.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/sidebar.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/single.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/style.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/header/header-image.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/page/content-page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content-image.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content-none.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content-video.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentyseventeen/template-parts/post/content.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/404.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/archive.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/comments.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css/blocks.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css/editor-blocks.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css/editor-style.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css/ie.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css/ie7.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/css/ie8.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/footer.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/functions.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/COPYING.txt]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/genericons.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/Genericons.eot]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/Genericons.svg]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/Genericons.ttf]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/Genericons.woff]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/LICENSE.txt]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/genericons/README.md]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/header.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/image.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/inc/back-compat.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/inc/customizer.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/inc/template-tags.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/index.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js/color-scheme-control.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js/customize-preview.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js/functions.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js/html5.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/readme.txt]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/rtl.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/screenshot.png]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/search.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/searchform.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/sidebar-content-bottom.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/sidebar.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/single.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/style.css]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts/biography.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts/content-none.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts/content-page.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts/content-search.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts/content-single.php]
+FILE: [C:/xampp/htdocs/cafeinline/wp-content/themes/twentysixteen/template-parts/content.php]
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2363
+    [filename] => C:\xampp\htdocs\cafeinline\wp-snapshots\tmp\20190211_cafeinlinepromo_ee0042e12c05744c2064_20190301093058_archive.zip
+    [comment] => 
+)
+ 
+FILE ADDED TO ZIP: 2362 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 42.15MB 
+ARCHIVE RUNTIME: 25.66 sec. 
+MEMORY STACK: 4MB 
+building installer 
+add_extra_files1 
+add_extra_files2 
+add_extra_files3 
+add_extra_files4 
+Doing archive file check 
+add_extra_files5 
+add_extra_files6 
+add_extra_files8 
+Successfully opened zip C:/xampp/htdocs/cafeinline/wp-snapshots/tmp/20190211_cafeinlinepromo_ee0042e12c05744c2064_20190301093058_archive.zip 
+Adding enhanced installer files to archive using ZipArchive 
+Installer files added to archive 
+Added to archive 
+After ziparchive close when adding installer 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 855.06KB 
+INSTALLER FILE: 44.54KB 
+ARCHIVE FILE: 42.99MB  
+EXPECTED FILE/DIRECTORY COUNT: 2,602 
+ACTUAL FILE/DIRECTORY COUNT: 2,362 
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	ERROR: File count in archive vs expected suggests a bad archive (2362 vs 2602).
+TRACE:
+	 1. class.pack.php : Error (736)
+	 2. class.pack.php : runDupArchiveBuildIntegrityCheck (1062)
+	 3. ctrl.package.php : runZipBuild (75)
+	 4. class-wp-hook.php : duplicator_package_build (286)
+	 5. class-wp-hook.php : apply_filters (310)
+	 6. plugin.php : do_action (453)
+	 7. admin-ajax.php : do_action (99)
+==================================================================================
+

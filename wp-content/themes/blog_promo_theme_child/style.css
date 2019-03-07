@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 
+Theme Name: blog_promo_theme_child
+Template: blog_promo_theme
+Theme URL: https://
+Description: Site officiel de la promo Café Inline apprenants à l'ACS Besançon.
+Version: 1.0
+Authors: Christian Anis, Ghislain Billard, Remy Marie-Ange
+*/
+body {
+  background-color: black !important;
+  color: red !important;
+  font-family: "courrier" !important;
+}
+
+/*# sourceMappingURL=style.css.map */

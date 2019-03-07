@@ -1,0 +1,744 @@
+    /* 
+Theme Name: blog_promo_theme
+Theme URL: https://
+Description: Site officiel de la promo Café Inline apprenants à l'ACS Besançon.
+Version: 1.0
+Authors: Christian Anis, Ghislain Billard, Remy Marie-Ange
+
+*/
+    
+    $primarycolor: white;
+    $secondcolor: #B50900;
+    $thirdcolor: #efefef;
+    $forthcolor: #474747;
+    @font-face {
+        font-family: 'freight';
+        src: url('fonts/Freight_Sans_Black_SC.otf');
+    }
+    
+    @font-face {
+        font-family: 'openlight';
+        src: url('fonts/OpenSans_CondLight.ttf');
+    }
+    
+    @font-face {
+        font-family: 'openbold';
+        src: url('fonts/OpenSans_Condbold.ttf');
+    }
+    
+    @font-face {
+        font-family: 'openregular';
+        src: url('fonts/OpenSans-Regular.ttf');
+    }
+    
+    body {
+        font-family: 'openregular';
+        color: $forthcolor;
+        /////////////////////////////////////////////////////NAVBAR
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            height: 90px;
+            position: fixed;
+            z-index: 5555;
+            .container {
+                .row {
+                    align-items: center;
+                    #navbar {
+                        width: 100%;
+                        .logo_nav {
+                            a {
+                                img {
+                                    height: 65px;
+                                }
+                            }
+                        }
+                        .button_nav {
+                            text-align: right;
+                            #menu {
+                                justify-content: flex-end;
+                                ul {
+                                    display: flex;
+                                    margin: auto;
+                                    li {
+                                        color: $forthcolor;
+                                        font-family: 'freight';
+                                        list-style: none;
+                                        border: solid 2px transparent;
+                                        padding: 5px;
+                                        margin: 0px 10px;
+                                        &:hover {
+                                            border: solid 2px $secondcolor;
+                                            color: $secondcolor;
+                                        }
+                                        a {
+                                            text-decoration: none;
+                                            color: $forthcolor;
+                                            text-transform: uppercase;
+                                            &:hover {
+                                                color: $secondcolor;
+                                            }
+                                        }
+                                    }
+                                    .active {
+                                        padding: 5px;
+                                        border: solid 2px $secondcolor;
+                                        a {
+                                            color: $secondcolor;
+                                        }
+                                    }
+                                }
+                            }
+                            button {
+                                background-color: $thirdcolor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// ACCUEIL BANNER
+        #banner_accueil {
+            background-image: url(images/home_banner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+            #title_header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h1,
+                h2 {
+                    font-family: "freight";
+                    color: $primarycolor;
+                    width: 100%;
+                }
+                h1 {
+                    font-size: 75px;
+                    background: rgba(0, 0, 0, 0.6);
+                    margin-bottom: 0;
+                    padding: 5px 30px;
+                }
+                h2 {
+                    font-size: 75px;
+                    background: rgba(0, 0, 0, 0.6);
+                    padding: 5px 23px;
+                }
+                .red_letter {
+                    color: $secondcolor
+                }
+            }
+            #button {
+                padding-top: 60px;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0;
+                margin-right: 0;
+                a {
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    font-family: "freight";
+                    color: white;
+                    background: rgba(181, 9, 0, 0.8);
+                    padding: 15px 20px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    &:hover {
+                        text-decoration: none;
+                        color: $secondcolor;
+                        background: white;
+                    }
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// ACCUEIL ABOUT
+        #about {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            h2 {
+                text-align: center;
+                font-family: "freight";
+                font-size: 2em;
+                color: $secondcolor;
+                text-transform: uppercase;
+            }
+            hr {
+                background: $secondcolor;
+                height: 2px;
+                width: 43%;
+                margin-bottom: 35px;
+            }
+            #img_accueil_post_content {
+                text-align: center;
+            }
+            #accueil_post_content {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+        #banner_separator {
+            background-image: url(images/separator_banner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 280px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            p {
+                font-family: "freight";
+                font-size: 40px;
+                color: white;
+                background: rgba(0, 0, 0, 0.5);
+                padding: 15px 20px;
+                width: 100%;
+                .red_letter {
+                    color: $secondcolor;
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// ACCUEIL LAST POST
+        #last_post_accueil {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            h2 {
+                text-align: center;
+                font-family: "freight";
+                font-size: 2em;
+                color: $secondcolor;
+                text-transform: uppercase;
+            }
+            hr {
+                background: $secondcolor;
+                height: 2px;
+                width: 43%;
+                margin-bottom: 35px;
+            }
+            ul {
+                list-style: none;
+                padding-left: 0;
+                li {
+                    margin-bottom: 45px;
+                    .img_articl {
+                        text-align: center;
+                        img {
+                            height: 200px;
+                            width: 80%;
+                        }
+                    }
+                    .extract_articl {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        p {
+                            margin-bottom: 0;
+                        }
+                        a {
+                            color: $forthcolor;
+                            font-family: 'openbold';
+                            margin-bottom: 15px;
+                            h3 {
+                                font-size: 18px;
+                            }
+                            &:hover {
+                                text-decoration: none;
+                                color: $secondcolor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// BLOG
+        #blog {
+            #banner-img {
+                background-image: url(images/blog_banner.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                background-position: center;
+                min-height: 650px;
+                h1 {
+                    color: white;
+                    font-family: 'freight';
+                    text-transform: uppercase;
+                    font-size: 75px;
+                    z-index: 5;
+                    position: absolute;
+                    margin-left: 100px;
+                    margin-top: 200px;
+                    span {
+                        color: $secondcolor;
+                    }
+                }
+            }
+            #articles {
+                padding-top: 20px;
+                .article {
+                    margin-top: 40px;
+                    .image {
+                        min-height: 200px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .titre {
+                        margin-top: 20px;
+                        font-size: 18px;
+                        font-family: 'openbold';
+                        max-width: 80%;
+                    }
+                    .auteur {
+                        a {
+                            font-family: 'openbold';
+                            &:hover {
+                                color: $secondcolor;
+                            }
+                        }
+                    }
+                    .extrait {
+                        height: 100px;
+                        margin-top: 8px;
+                        text-align: justify;
+                    }
+                    .plus {
+                        color: $secondcolor;
+                        font-family: 'openbold';
+                        margin-bottom: 40px;
+                    }
+                    hr {
+                        background-color: $secondcolor;
+                    }
+                    a {
+                        color: inherit;
+                        &:hover {
+                            color: inherit;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            h2 {
+                color: $secondcolor;
+                font-family: 'freight';
+                text-transform: uppercase;
+                font-size: 2em;
+                text-align: center;
+                margin-top: 50px;
+            }
+            hr {
+                background: $secondcolor;
+                height: 2px;
+                width: 43%;
+                margin-bottom: 35px;
+            }
+        }
+        ///////////////////////////////////////////////////// SECTION ARTICLE SEUL
+        #banTitre {
+            text-align: center;
+            background-color: $thirdcolor;
+            background-image: url(images/banner.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 300px;
+            h1 {
+                font-family: 'freight';
+                font-size: 60px;
+                color: $secondcolor;
+            }
+        }
+        #article {
+            .articleTop {
+                padding: 30px 0px;
+                .articleAuteur {
+                    font-size: 26px;
+                    font-family: 'openbold';
+                    font-weight: bold;
+                    a {
+                        color: $secondcolor;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .articleDate {
+                    font-size: 20px;
+                    font-family: 'openbold';
+                    font-weight: bold;
+                    text-align: right;
+                }
+                #post {
+                    .post-thumbnails {
+                        margin-top: 20px;
+                        height: 420px;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .articleTexte {
+                        font-size: 16px;
+                        padding: 20px 0px;
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// COMMENTAIRES
+        #commentaires {
+            button {
+                font-family: 'freight';
+                font-size: 14px;
+                text-decoration: none;
+                background-color: rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                color: $secondcolor;
+                border: none;
+                margin-top: 15px;
+                margin-bottom: 25px;
+                &:hover {
+                    color: $forthcolor;
+                }
+            }
+            hr {
+                border-top: 4px solid $secondcolor;
+            }
+            h3 {
+                a {
+                    color: $secondcolor;
+                    &:hover {
+                        color: $forthcolor;
+                        text-decoration: none;
+                    }
+                }
+            }
+            h2 {
+                font-family: 'freight';
+                font-size: 38px;
+                color: $secondcolor;
+            }
+            .comments-area {
+                font-family: 'openbold';
+                font-size: 14px;
+                p {
+                    font-family: 'openlight';
+                    font-size: 16px;
+                }
+            }
+            .comments-title {
+                padding-top: 30px;
+            }
+            .comment-list {
+                list-style: none;
+                margin: 0;
+                a {
+                    font-family: 'freight';
+                    font-size: 14px;
+                    text-decoration: none;
+                    margin: 0px 2px 0px 0px;
+                    color: $secondcolor;
+                    &:hover {
+                        color: $forthcolor;
+                    }
+                }
+                .children {
+                    list-style: none;
+                    margin: 0;
+                    li {
+                        padding-left: 0.875em;
+                    }
+                }
+            }
+            .logged-in-as {
+                a {
+                    font-family: 'openlight';
+                    font-size: 14px;
+                    text-decoration: none;
+                    margin: 0px 2px 0px 0px;
+                    color: $forthcolor;
+                    &:hover {
+                        color: $secondcolor;
+                    }
+                }
+            }
+            .comment-author {
+                color: #1a1a1a;
+                margin-bottom: 0.4375em;
+                .avatar {
+                    float: left;
+                    height: 28px;
+                    margin-right: 0.875em;
+                    position: relative;
+                    width: 28px;
+                }
+            }
+            .reply {
+                padding-bottom: 40px;
+            }
+            .comment-reply-link {
+                background-color: rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                color: $secondcolor;
+                display: inline-block;
+                font-size: 13px;
+                line-height: 1;
+                margin-top: 2em;
+            }
+            #author,
+            #email {
+                display: flex;
+                width: 50%;
+                height: 40px;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                font-weight: bold;
+                background-color: $thirdcolor;
+                background-clip: padding-box;
+                border: 2px solid #aaa;
+                margin-bottom: 15px;
+            }
+            #comment {
+                display: block;
+                width: 50%;
+                height: 150px;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                font-weight: bold;
+                background-color: $thirdcolor;
+                background-clip: padding-box;
+                border: 2px solid #aaa;
+                margin-bottom: 15px;
+            }
+        }
+        ///////////////////////////////////////////////////// EQUIPE
+        #banner_equipe {
+            background-image: url(images/equipe_banner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-family: "freight";
+                font-size: 75px;
+                color: $primarycolor;
+                background: rgba(0, 0, 0, 0.6);
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                .red_letter {
+                    color: $secondcolor
+                }
+            }
+        }
+        #post_equipe {
+            margin-top: 50px;
+            h2 {
+                text-align: center;
+                font-family: "freight";
+                font-size: 20px;
+                color: #B50900;
+                text-transform: uppercase;
+            }
+            hr {
+                background: #B50900;
+                height: 2px;
+                width: 43%;
+                margin-bottom: 35px;
+            }
+            ul {
+                list-style: none;
+                padding-left: 0;
+                margin-bottom: 30px;
+                li {
+                    margin-bottom: 40px;
+                    .portrait {
+                        text-align: center;
+                        margin-bottom: 25px;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .portrait_articl {
+                        p {
+                            height: 50px;
+                            font-size: 18px;
+                        }
+                        a {
+                            .fa {
+                                font-size: 2em;
+                                margin-top: 20px;
+                                color: $secondcolor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// PROJET
+        #banProjets {
+            text-align: center;
+            background-color: $thirdcolor;
+            background-image: url(images/banner.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 300px;
+            span {
+                color: $forthcolor;
+            }
+            h1 {
+                font-family: 'freight';
+                font-size: 75px;
+                color: $secondcolor;
+            }
+        }
+        #projets {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            h2 {
+                font-family: 'freight';
+                font-size: 30px;
+                color: $secondcolor;
+                padding-top: 20px;
+            }
+            a {
+                font-family: 'openregular';
+                font-size: 14px;
+                color: $thirdcolor;
+                &:hover {
+                    color: $primarycolor;
+                    text-decoration: none;
+                }
+            }
+            img {
+                position: relative;
+                height: initial;
+                min-height: 1px;
+                -ms-flex: 0 0 33.333333%;
+                flex: 0 0 33.333333%;
+                -ms-flex-preferred-size: 0;
+                flex-basis: 0;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                width: 100%;
+                height: 20vw;
+                -webkit-filter: brightness(0.8);
+            }
+            img:hover {
+                filter: brightness(.3);
+                -webkit-filter: brightness(1.1);
+                -webkit-transition: all ease 0.5s;
+                transition: all ease 0.5s;
+                border-style: solid;
+                border-width: 0px;
+                outline: none;
+                border-color: $secondcolor;
+                box-shadow: 0 0 10px $secondcolor;
+            }
+            .wp-block-gallery.is-cropped .blocks-gallery-item a,
+            figure {
+                height: inherit;
+            }
+            .projetTop {
+                padding: 30px 0px;
+                .projetType {
+                    font-size: 26px;
+                    font-family: 'openbold';
+                    font-weight: bold;
+                    a {
+                        color: $secondcolor;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// MENTIONS 
+        #banner_mentions {
+            background-image: url(images/banner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-family: 'freight';
+                color: $secondcolor;
+                margin-top: 45px;
+                font-size: 75px;
+            }
+        }
+        .post_mentions {
+            padding-top: 35px;
+            padding-bottom: 35px;
+            h2 {
+                color: $secondcolor;
+                font-family: 'freight';
+                margin-bottom: 20px;
+                b {
+                    border-bottom: 2px solid;
+                }
+            }
+            p {
+                a {
+                    color: $secondcolor;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        ///////////////////////////////////////////////////// FOOTER
+        footer {
+            min-height: 80px;
+            background-color: $secondcolor;
+            color: white;
+            padding: 5px;
+            line-height: 35px;
+            font-size: 13px;
+            .row {
+                justify-content: space-between;
+                padding-top: 7px;
+                a {
+                    color: white;
+                    &:hover {
+                        text-decoration: none;
+                        color: $thirdcolor;
+                    }
+                }
+                #acs {
+                    text-align: center;
+                }
+                #reseaux {
+                    text-align: right;
+                    .fa {
+                        font-size: 2em;
+                        -webkit-transition: -webkit-transform .3s ease-in-out;
+                        transition: transform .3s ease-in-out;
+                        padding-right: 5px;
+                        color: $thirdcolor;
+                        &:hover {
+                            -webkit-transform: rotate(360deg);
+                            transform: rotate(360deg);
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* 
+Theme Name: blog_promo_theme
+Theme URL: https://
+Description: Site officiel de la promo Café Inline apprenants à l'ACS Besançon.
+Version: 1.0
+Authors: Christian Anis, Ghislain Billard, Remy Marie-Ange
+*/
+@media screen and (max-width: 992px) {
+  body header {
+    background-color: white;
+  }
+  body header .container .row #navbar .button_nav {
+    position: relative;
+  }
+  body header .container .row #navbar .button_nav button {
+    background-color: transparent;
+    border: transparent;
+  }
+  body header .container .row #navbar .button_nav button span {
+    background-image: url("images/mug-hot-solid.svg");
+    font-size: 2em;
+  }
+  body header .container .row #navbar .button_nav button:focus {
+    outline: 5px auto transparent;
+  }
+  body header .container .row #navbar .button_nav #menu {
+    position: absolute;
+    top: 62px;
+    right: 0px;
+  }
+  body header .container .row #navbar .button_nav #menu ul {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0px;
+    padding: 10px 35px;
+    background-color: white;
+  }
+
+  #banTitre h1 {
+    font-size: 55px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  body main .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body main #banner_accueil #title_header h1 {
+    font-size: 45px;
+  }
+  body main #banner_accueil #title_header h2 {
+    font-size: 35px;
+  }
+  body main #banner_accueil #button {
+    padding-top: 40px;
+  }
+  body main #banner_accueil #button a {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main #banner_separator p {
+    font-size: 25px;
+  }
+  body main #last_post_accueil ul li .img_articl {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  body main #last_post_accueil ul li .extract_articl p {
+    margin-bottom: 10px;
+  }
+  body #blog h1 {
+    font-size: 45px !important;
+  }
+  body #banTitre h1 {
+    font-size: 30px !important;
+  }
+  body #article .articleTop .articleDate {
+    text-align: left;
+  }
+  body #commentaires #comment,
+body #commentaires #author,
+body #commentaires #email {
+    width: 100%;
+  }
+  body #commentaires .comments-area p {
+    text-align: center;
+  }
+  body #banner_equipe h1 {
+    font-size: 45px;
+  }
+  body .portrait_articl {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  body #banProjets h1 {
+    font-size: 45px;
+  }
+  body #banProjets h1 {
+    font-size: 45px;
+  }
+  body #projets ul li {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+  body #projets ul li a figure img {
+    min-height: 380px;
+    width: 100%;
+  }
+  body #banner_mentions h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  body footer .container .row .column {
+    margin: 10px 0;
+    text-align: left !important;
+  }
+  body footer .container .row #acs {
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
